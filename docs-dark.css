@@ -1,0 +1,9 @@
+
+@media (prefers-color-scheme: dark) {
+    body {
+        filter: invert(var(--darkness));
+    }
+    body img, body [style*=background-image] {
+        filter: invert(var(--darkness));
+    }
+}
