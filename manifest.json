@@ -9,7 +9,7 @@
     },
     "content_scripts": [
         {
-            "matches": ["https://docs.google.com/document/*"],
+            "matches": ["https://docs.google.com/document/*", "https://essay.app/*"],
             "css": ["docs-dark.css"],
             "js": ["logic.js"]
         }
