@@ -4,7 +4,7 @@ function setCssVariable ( varName, varValue ) {
 }
 // setting dark mode first time
 chrome.storage.sync.get([KEY], function(result) {
-    setCssVariable(KEY, result[KEY] || '0.95')
+    setCssVariable(KEY, result[KEY] || '0.92')
 });
 // set new value on change -- triggerd from html
 chrome.storage.onChanged.addListener(function (changes, namespace) {

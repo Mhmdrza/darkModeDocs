@@ -1,7 +1,7 @@
 
 // setting slider value frst time
 chrome.storage.sync.get([KEY], function(result) {
-    slider.value = result[KEY] || 0.95
+    slider.value = result[KEY] || 0.92
 });
 function setKey (keyNama, keyVale) {
     chrome.storage.sync.set({ [keyNama]: keyVale }, function() {});
